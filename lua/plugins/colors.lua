@@ -15,8 +15,24 @@ return {
 	dependencies = {
 	    'nvim-tree/nvim-web-devicons'
 	},
-	opts = {
-	    theme = "auto"
+        opts = {
+            theme = "auto",
+            sections = {
+                lualine_a = {"mode"},
+                lualine_b = {"filename"},
+                lualine_c = {},
+                lualine_x = {},
+                lualine_y = {"location"},
+                lualine_z = {"encoding", "fileformat"},
+            },
+                inactive_sections = {
+                lualine_a = {},
+                lualine_b = {"filename"},
+                lualine_c = {},
+                lualine_x = {},
+                lualine_y = {},
+                lualine_z = {"encoding", "fileformat"},
+            },
 	}
     },
 }
