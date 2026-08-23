@@ -20,6 +20,7 @@ This document provides an overview of all plugins and custom keybinds defined in
 |`n`|`<leader>fg`|Telescope live grep|
 |`n`|`<leader>fb`|Telescope buffers|
 |`n`|`<leader>fh`|Telescope help tags|
+|`n`|`<leader>en`|Telescope find in nvim/|
 
 ## Environment
 Windows, Terminal or Wezterm.
