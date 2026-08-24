@@ -11,6 +11,7 @@ This document provides an overview of all plugins and custom keybinds defined in
     - plenary.nvim
     - telescope-fzf-native.nvim
 - nvim-treesitter
+- vim-fugitive
 
 ## Custom keybinds
 |Mode|Key|Action|
