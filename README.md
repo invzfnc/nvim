@@ -13,7 +13,9 @@ This document provides an overview of all plugins and custom keybinds defined in
 - nvim-treesitter
 - vim-fugitive
 - todo-comments
-- vim-gitgutter
+- gitsigns.nvim
+- nvim-lspconfig
+    - lazydev.nvim
 
 ## Custom keybinds
 |Mode|Key|Action|
