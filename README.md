@@ -12,6 +12,8 @@ This document provides an overview of all plugins and custom keybinds defined in
     - telescope-fzf-native.nvim
 - nvim-treesitter
 - vim-fugitive
+- todo-comments
+- vim-gitgutter
 
 ## Custom keybinds
 |Mode|Key|Action|
@@ -24,5 +26,5 @@ This document provides an overview of all plugins and custom keybinds defined in
 |`n`|`<leader>en`|Telescope find in nvim/|
 
 ## Environment
-Windows, Terminal or Wezterm.
+Windows. Terminal or Wezterm.
 
