@@ -11,6 +11,9 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 
+vim.opt.statuscolumn = "%s%l "
+vim.opt.signcolumn = "yes:1"
+
 -- clear highlights on search when pressing Ctrl-c in normal mode
 vim.keymap.set("n", "<C-c>", "<cmd>nohlsearch<CR>")
 
