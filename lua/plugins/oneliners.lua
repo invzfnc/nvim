@@ -1,6 +1,11 @@
 return {
-  { -- git plugin
+  { -- git plugin (run git commands)
     "tpope/vim-fugitive",
+  },
+
+  { -- another git plugin (show diff lines)
+    "lewis6991/gitsigns.nvim",
+    event = { "BufReadPre", "BufNewFile" },
   },
 
   { -- style todo comments, and others like "warn", "bug"
@@ -9,9 +14,4 @@ return {
     event = { "BufReadPost", "BufNewFile" },
     opts = { signs = false },
   },
-
-  { -- show git diff - added, modified, removed
-    "airblade/vim-gitgutter",
-    event = { "BufReadPost", "BufNewFile" },
-  }
 }
