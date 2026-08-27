@@ -26,6 +26,11 @@ This document provides an overview of all plugins and custom keybinds defined in
 |`n`|`<leader>fb`|Telescope buffers|
 |`n`|`<leader>fh`|Telescope help tags|
 |`n`|`<leader>en`|Telescope find in nvim/|
+|`n`|`grn`|Rename variable|
+|`n`|`K`|Hover|
+|`n`|`]d`, `[d`|Next/prev diagnostic|
+|`n`|`gd`|Go to definition|
+|`n`|`gD`|Go to declaration|
 
 ## References
 Some configs are taken and modified from the [kickstart init.lua](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua).
