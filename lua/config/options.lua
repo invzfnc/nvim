@@ -1,6 +1,19 @@
+-- enable faster startup by caching compiled lua modules
+vim.loader.enable()
+
+-- leader key is done in lazy.lua
+
 vim.opt.number = true
 vim.opt.cursorline = true
+
 vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
+
+-- clear highlights on search when pressing Ctrl-c in normal mode
+vim.keymap.set("n", "<C-c>", "<cmd>nohlsearch<CR>")
+
+-- don't show the mode, it's already in the status line
+vim.o.showmode = false
+

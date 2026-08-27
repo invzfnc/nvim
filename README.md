@@ -25,6 +25,9 @@ This document provides an overview of all plugins and custom keybinds defined in
 |`n`|`<leader>fh`|Telescope help tags|
 |`n`|`<leader>en`|Telescope find in nvim/|
 
+## References
+Some configs are taken and modified from the [kickstart init.lua](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua).
+
 ## Environment
 Windows. Terminal or Wezterm.
 
