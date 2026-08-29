@@ -15,15 +15,14 @@ vim.opt.tabstop = 4
 vim.opt.statuscolumn = "%s%l  "
 vim.opt.signcolumn = "yes:1"
 
--- clear highlights on search when pressing Ctrl-c in normal mode
-vim.keymap.set("n", "<C-c>", "<cmd>nohlsearch<CR>")
+vim.opt.splitright = true
+vim.opt.splitbelow = true
 
 -- don't show the mode, it's already in the status line
 vim.o.showmode = false
 
 -- colorscheme and transparency
 vim.cmd.colorscheme("retrobox")
---vim.api.nvim_set_hl(0, "Normal", { bg = "none" }) -- add transparency
 
 local transparent_groups = {
   "Normal",
@@ -39,3 +38,4 @@ local transparent_groups = {
 for _, group in ipairs(transparent_groups) do
   vim.api.nvim_set_hl(0, group, { bg = "none", ctermbg = "none" })
 end
+
