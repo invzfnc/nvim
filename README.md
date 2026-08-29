@@ -4,7 +4,6 @@ This document provides an overview of all plugins and custom keybinds defined in
 
 ## Plugins
 - lazy.nvim
-- tokyonight.nvim
 - lualine.nvim
     - nvim-web-devicons
 - telescope.nvim
