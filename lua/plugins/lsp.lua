@@ -16,7 +16,7 @@ return {
     },
     config = function()
       --vim.lsp.config("lua_ls", { settings = {} })
-      vim.lsp.enable({ "lua_ls", "pyright" })
+      vim.lsp.enable({ "lua_ls", "pyright", "clangd", })
 
       vim.diagnostic.config({
         virtual_text = true,
@@ -33,4 +33,5 @@ return {
 -- grab lsps from
 -- lua: https://github.com/LuaLS/lua-language-server/releases/tag/3.19.1 (extract and add bin/ to path)
 -- python: python -m pip install pyright
+-- c/c++: install msvc clang with visual studio installer
 
