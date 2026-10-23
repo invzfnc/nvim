@@ -33,5 +33,5 @@ return {
 -- grab lsps from
 -- lua: https://github.com/LuaLS/lua-language-server/releases/tag/3.19.1 (extract and add bin/ to path)
 -- python: python -m pip install pyright
--- c/c++: install msvc clang with visual studio installer
+-- c/c++: install with MSYS2: pacman -S mingw-w64-ucrt-x86_64-clang-tools-extra
 
