@@ -21,6 +21,14 @@ vim.opt.splitbelow = true
 -- don't show the mode, it's already in the status line
 vim.o.showmode = false
 
+-- disable auto-commenting new lines (formatoptions -= cro)
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "*",
+  callback = function()
+    vim.opt_local.formatoptions:remove({ "c", "r", "o" })
+  end,
+})
+
 -- colorscheme and transparency
 vim.cmd.colorscheme("retrobox")
 
